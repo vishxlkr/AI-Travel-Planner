@@ -29,7 +29,7 @@ def get_required_env(name: str) -> str:
     )
 
 
-DATABASE_URL = get_required_env("DATABASE_URL")
+# DATABASE_URL = get_required_env("DATABASE_URL")
 GROQ_API_KEY = get_required_env("GROQ_API_KEY")
 
 # LLM
